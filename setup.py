@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setup(name='kc_utils',
 
-      version="0.0.3",
+      version="0.0.1",
 
       url='https://github.com/kcoo/kc_utils',
 
