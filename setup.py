@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setup(name='kc_utils',
 
-      version="0.0.2",
+      version="0.0.3",
 
       url='https://github.com/kcoo/kc_utils',
 
@@ -53,3 +53,6 @@ setup(name='kc_utils',
 
 
 # /usr/local/app/minionda/miniconda2/envs/yc_python3.6_dev/bin/python  setup.py bdist_wheel upload
+# /usr/local/app/minionda/miniconda2/envs/yc_python3.6_dev/bin/python  setup.py sdist upload
+# twine upload dist/*
+# twine check dist/*

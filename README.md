@@ -2,7 +2,7 @@
 
 ### install
 
-```shell script
+```
 pip install --upgrade kc_utils -i https://pypi.org/simple/
 pip install --upgrade kc_utils['cache_redis'] -i https://pypi.org/simple/
 ```
@@ -11,7 +11,7 @@ pip install --upgrade kc_utils['cache_redis'] -i https://pypi.org/simple/
 
 #### time
 * get_time
-```python
+```
 #:param num: 和unit配合使用计算时间
 #:param sf: %Y%m%d%H%M%S
 #:param unit: days = None, seconds = None, microseconds = None, milliseconds = None, minutes = None, hours = None, weeks = None
@@ -24,7 +24,7 @@ get_time(-1, sf="%Y%m%d%H%M%S") #'20220319055451'
 get_time(-1, sf="%Y%m%d%H%M%S", unit="hours") #'20220320045504'
 ```
 * format_time
-```python
+```
 #:param log_date: 字符串日期
 #:param sf: %Y%m%d%H%M%S
 #:param new_sf: %Y%m%d%H%M%S
@@ -34,12 +34,12 @@ format_time(get_time()) # '2022-03-20'
 ```
 
 #### cache
-```shell script
+```
 pip install --upgrade kc_utils['cache_redis'] -i https://pypi.org/simple/
 ```
 * redis
 
-```python
+```
 #redis 装饰器
 #:param time: ttl
 ## time==0 or redis_store=None, 则不走缓存;
