@@ -32,11 +32,9 @@ setup(name='kc_utils',
 
       packages=find_packages(),
 
-      # long_description=open('README.md').read(),
+      long_description=long_description,
 
-      # long_description=long_description,
-
-      # long_description_content_type="text/markdown",
+      long_description_content_type="text/markdown",
 
       package_data={
       },
